@@ -1,0 +1,4 @@
+2017-09-09 21:07:57,846 ERROR[com.lovecws.mumu.kafka.quickstart.KafkaQuickStartConsumer:105] - [KafkaQuickStartConsumer]: Error due to
+java.lang.NullPointerException
+	at com.lovecws.mumu.kafka.quickstart.KafkaQuickStartConsumer.doWork(KafkaQuickStartConsumer.java:34)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:64)
