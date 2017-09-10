@@ -18,7 +18,7 @@ public class KafkaInterceptor implements ConsumerInterceptor {
     private TopicPartition topicPartition=null;
 
     @Override
-    public ConsumerRecords onConsume(ConsumerRecords consumerRecords) {
+    public ConsumerRecords<Integer, String> onConsume(ConsumerRecords consumerRecords) {
         List<ConsumerRecord<Integer,String>> consumerRecordList=new ArrayList<ConsumerRecord<Integer, String>>();
         topicPartition = new TopicPartition(KafkaConfiguration.TOPIC, 0);
         //获取主题下的0分区下的消息
@@ -36,7 +36,7 @@ public class KafkaInterceptor implements ConsumerInterceptor {
         }
         Map<TopicPartition, List<ConsumerRecord<Integer, String>>> recordMap=new HashMap<TopicPartition, List<ConsumerRecord<Integer, String>>>();
         recordMap.put(topicPartition,consumerRecordList);
-        return new ConsumerRecords(recordMap);
+        return new ConsumerRecords<Integer, String>(recordMap);
     }
 
     @Override

@@ -51,7 +51,7 @@ public class KafkaBenchmarkProceducerTest {
     @Ignore
     public void sendAsyncMessage(){
         try {
-            Method method = KafkaBenchmarkProceducer.class.getMethod("sendAsyncMessage", null);
+            Method method = KafkaBenchmarkProceducer.class.getMethod("sendAsyncMessage", new Class<?>[]{});
             Options optional=new OptionsBuilder()
                     .forks(1)
                     .measurementIterations(10)
@@ -71,7 +71,7 @@ public class KafkaBenchmarkProceducerTest {
     public void sendAsyncMessageWithResult(){
         KafkaBenchmarkProceducer proceducer=new KafkaBenchmarkProceducer();
         try {
-            Method method = KafkaBenchmarkProceducer.class.getMethod("sendAsyncMessageWithResult", null);
+            Method method = KafkaBenchmarkProceducer.class.getMethod("sendAsyncMessageWithResult", new Class<?>[]{});
             Options optional=new OptionsBuilder()
                     .forks(1)
                     .measurementIterations(10)

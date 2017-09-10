@@ -22,11 +22,11 @@ public class KafkaQuickStartProceducer {
         props.put("client.id", "KafkaQuickStartProceducer");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        KafkaProducer<Integer,System> producer = new KafkaProducer<Integer,System>(props);
+        KafkaProducer<Integer,String> producer = new KafkaProducer<Integer,String>(props);
 
         try {
             for (int i = 0; i < count; i++) {
-                Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, 0,i, message)).get();
+                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, 0,i, message)).get();
                 System.out.println("send message:" + o);
             }
         } catch (InterruptedException e) {

@@ -34,7 +34,7 @@ public class KafkaBenchmarkProceducer {
     @Benchmark
     @BenchmarkMode(Mode.Throughput)
     public void sendMessage(){
-        producer.send(new ProducerRecord(KafkaConfiguration.TOPIC,null, new String(KAFKA_MESSAGE)));
+        producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC,null, new String(KAFKA_MESSAGE)));
     }
 
     /**
@@ -44,7 +44,7 @@ public class KafkaBenchmarkProceducer {
     @BenchmarkMode(Mode.Throughput)
     public void sendMessageWithResult(){
         try {
-            producer.send(new ProducerRecord(KafkaConfiguration.TOPIC,null, new String(KAFKA_MESSAGE))).get();
+            producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC,null, new String(KAFKA_MESSAGE))).get();
         } catch (InterruptedException|ExecutionException e) {
             e.printStackTrace();
         }
@@ -56,7 +56,7 @@ public class KafkaBenchmarkProceducer {
     @Benchmark
     @BenchmarkMode(Mode.Throughput)
     public void sendAsyncMessage(){
-        producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, null, new String(KAFKA_MESSAGE)), new Callback() {
+        producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, null, new String(KAFKA_MESSAGE)), new Callback() {
             @Override
             public void onCompletion(RecordMetadata recordMetadata, Exception e) {
             }
@@ -70,7 +70,7 @@ public class KafkaBenchmarkProceducer {
     @BenchmarkMode(Mode.Throughput)
     public void sendAsyncMessageWithResult(){
         try {
-            Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, null, new String(KAFKA_MESSAGE)), new Callback() {
+            Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, null, new String(KAFKA_MESSAGE)), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                 }

@@ -39,7 +39,7 @@ public class kafkaTransactionProceducer {
         try {
             for (int i = 0; i < transactionCount; i++) {
                 //kafka保证相同的partition 和key
-                Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, 0,123, message)).get();
+                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, 0,123, message)).get();
                 System.out.println("send message:" + o);
             }
         } catch (InterruptedException|ExecutionException e) {

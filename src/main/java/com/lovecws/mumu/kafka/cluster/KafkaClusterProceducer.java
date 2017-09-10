@@ -20,7 +20,7 @@ public class KafkaClusterProceducer {
         KafkaProducer<Integer,String> producer = new KafkaProducer<Integer,String>(props);
 
         try {
-            Object o = producer.send(new ProducerRecord("babymumu", 0,null, "lovecws")).get();
+            Object o = producer.send(new ProducerRecord<Integer, String>("babymumu", 0,0, "lovecws")).get();
             System.out.println("send message:" + o);
         } catch (InterruptedException e) {
             e.printStackTrace();

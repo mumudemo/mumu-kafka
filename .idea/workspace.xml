@@ -2,44 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbbcbe4-38c6-492f-b867-56d62993eb9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_0_11_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_0_11_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_0_11_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountProcessorDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/error.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducerDemo.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.class" afterPath="$PROJECT_DIR$/target/classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_examples_0_11_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_log4j_appender_0_11_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_examples_0_11_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_tools_0_11_0_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountProcessorDemo.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.class" afterPath="$PROJECT_DIR$/target/classes/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mumu-kafka.iml" afterPath="$PROJECT_DIR$/mumu-kafka.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumerDemo.java" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducerDemo.java" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,15 +32,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCountDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountDemo.java">
+      <file leaf-file-name="KafkaBenchmarkProceducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="614">
+              <caret line="72" column="72" lean-forward="false" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaClusterProceducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#795#811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kafkaTransactionProceducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="41" column="76" lean-forward="false" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+              <folding>
+                <element signature="e#1230#1246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaQuickStartConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaQuickStartProceducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="76" />
+              <folding>
+                <element signature="e#1020#1036#0" expanded="true" />
+                <element signature="e#2054#2070#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1495#1550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +108,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -79,9 +118,31 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="19">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerInterceptor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/consumer/ConsumerInterceptor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaInterceptorConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +161,7 @@
     <findStrings>
       <find>clientId</find>
       <find>ShutdownableThread</find>
+      <find>KafkaServer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,21 +188,21 @@
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumerTest.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountProcessorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountDemo.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java" />
       </list>
     </option>
   </component>
@@ -225,7 +287,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountDemo">
+  <component name="RunManager" selected="Application.KafkaClusterProceducerTest">
+    <configuration name="KafkaClusterProceducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.kafka.cluster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.kafka.cluster.KafkaClusterProceducerTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mumu-kafka" />
+      <envs />
+    </configuration>
     <configuration name="KafkaInterceptorConsumerTest.receiveInteceptorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -239,31 +320,6 @@
       <option name="PACKAGE_NAME" value="com.lovecws.mumu.kafka.interceptor" />
       <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.kafka.interceptor.KafkaInterceptorConsumerTest" />
       <option name="METHOD_NAME" value="receiveInteceptorMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="KafkaQuickStartConsumerTest.receiveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lovecws.mumu.kafka.quickstart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mumu-kafka" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lovecws.mumu.kafka.quickstart" />
-      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.kafka.quickstart.KafkaQuickStartConsumerTest" />
-      <option name="METHOD_NAME" value="receiveMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,18 +502,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.cobertura" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.KafkaQuickStartProceducerTest.sendMessage" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KafkaQuickStartConsumerTest.receiveMessage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.KafkaInterceptorConsumerTest.receiveInteceptorMessage" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WordCountDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.WordCountProcessorDemo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KafkaInterceptorConsumerTest.receiveInteceptorMessage" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WordCountDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WordCountProcessorDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.KafkaClusterProceducerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.WordCountDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WordCountProcessorDemo" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KafkaInterceptorConsumerTest.receiveInteceptorMessage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KafkaQuickStartProceducerTest.sendMessage" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KafkaQuickStartConsumerTest.receiveMessage" />
+        <item index="0" class="java.lang.String" itemvalue="Application.KafkaClusterProceducerTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordCountDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WordCountProcessorDemo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KafkaInterceptorConsumerTest.receiveInteceptorMessage" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KafkaQuickStartProceducerTest.sendMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +529,7 @@
       <updated>1504944835459</updated>
       <workItem from="1504944837878" duration="15191000" />
       <workItem from="1505004082228" duration="13464000" />
-      <workItem from="1505027563255" duration="15046000" />
+      <workItem from="1505027563255" duration="18488000" />
     </task>
     <task id="LOCAL-00001" summary="apache-kafka比阿尼额quichstart,测试消息的发送和消息的接受">
       <created>1504967214111</created>
@@ -482,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504967214111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="apache-kafka编写测试接口，包括消息顺序发送、事务消息、消息拦截等，同时使用jmh测试kafka消息发送的并发量，kafka在异步发送消息的情况下发送消息速度最快，达到60w/tps。">
+      <created>1505049158725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505049158725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -518,7 +581,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43701000" />
+    <option name="totallyTimeSpent" value="47143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,21 +594,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1913" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25526175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25526175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25256342" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -569,7 +633,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="apache-kafka比阿尼额quichstart,测试消息的发送和消息的接受" />
-    <option name="LAST_COMMIT_MESSAGE" value="apache-kafka比阿尼额quichstart,测试消息的发送和消息的接受" />
+    <MESSAGE value="apache-kafka编写测试接口，包括消息顺序发送、事务消息、消息拦截等，同时使用jmh测试kafka消息发送的并发量，kafka在异步发送消息的情况下发送消息速度最快，达到60w/tps。" />
+    <option name="LAST_COMMIT_MESSAGE" value="apache-kafka编写测试接口，包括消息顺序发送、事务消息、消息拦截等，同时使用jmh测试kafka消息发送的并发量，kafka在异步发送消息的情况下发送消息速度最快，达到60w/tps。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,70 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.0.0.M3/spring-kafka-2.0.0.M3.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka-test/2.0.0.M3/spring-kafka-test-2.0.0.M3.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-kafka.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cobertura/cobertura.ser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error.log" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/internals/TransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="194" column="19" lean-forward="false" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.jar!/org/openjdk/jmh/annotations/Mode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="48" column="54" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -678,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1305" column="19" lean-forward="false" selection-start-line="1305" selection-start-column="12" selection-end-line="1305" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -697,13 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="510" column="34" lean-forward="false" selection-start-line="510" selection-start-column="34" selection-end-line="510" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="358" column="13" lean-forward="true" selection-start-line="358" selection-start-column="13" selection-end-line="358" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -781,52 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#1230#1246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/KafkaConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -842,25 +782,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#1020#1036#0" expanded="true" />
-            <element signature="e#2037#2053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,43 +822,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/consumer/ConsumerInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#728#761#0" expanded="true" />
-            <element signature="e#1478#1533#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,10 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="91" column="36" lean-forward="false" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1182#1212#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,27 +864,219 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/streams/WordCountDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/DemoCallBack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/KafkaConsumerProducerDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/KafkaProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/Producer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.11.0.0/kafka_2.11-0.11.0.0.jar!/kafka/server/KafkaServer$.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.11.0.0/kafka_2.11-0.11.0.0.jar!/kafka/Kafka.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-examples/0.11.0.0/kafka-examples-0.11.0.0.jar!/kafka/examples/SimpleConsumerDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.11.0.0/kafka_2.11-0.11.0.0.jar!/kafka/server/KafkaServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2525">
+          <caret line="1580" column="134" lean-forward="false" selection-start-line="1580" selection-start-column="113" selection-end-line="1580" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="1780" column="18" lean-forward="false" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="89" lean-forward="true" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="316" column="34" lean-forward="false" selection-start-line="316" selection-start-column="34" selection-end-line="316" selection-end-column="34" />
+          <folding>
+            <element signature="e#17466#17467#0" expanded="true" />
+            <element signature="e#17522#17523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="44" column="60" lean-forward="false" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartProceducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="76" />
+          <folding>
+            <element signature="e#1020#1036#0" expanded="true" />
+            <element signature="e#2054#2070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptorConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/cluster/KafkaClusterProceducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/benchmark/KafkaBenchmarkProceducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="72" column="72" lean-forward="false" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/transaction/kafkaTransactionProceducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="41" column="76" lean-forward="false" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+          <folding>
+            <element signature="e#1230#1246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/quickstart/KafkaQuickStartConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/consumer/ConsumerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lovecws/mumu/kafka/interceptor/KafkaInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1495#1550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="19">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
