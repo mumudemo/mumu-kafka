@@ -1,4 +1,4 @@
-package com.lovecws.mumu.kafka.quickstart;
+package com.lovecws.mumu.kafka.interceptor;
 
 import com.lovecws.mumu.kafka.KafkaConfiguration;
 import kafka.utils.ShutdownableThread;
@@ -10,15 +10,12 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import java.util.Collections;
 import java.util.Properties;
 
-/**
- * kafka接受消息
- */
-public class KafkaQuickStartConsumer extends ShutdownableThread {
+public class KafkaInterceptorConsumer extends ShutdownableThread {
 
     private KafkaConsumer<Integer,String> consumer;
 
-    public KafkaQuickStartConsumer(){
-        super("KafkaQuickStartConsumer",false);
+    public KafkaInterceptorConsumer(){
+        super("KafkaInterceptorConsumer",false);
         Properties props = new Properties();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, KafkaConfiguration.BOOTSTRAP_SERVERS_CONFIG);
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "DemoConsumer");
@@ -28,6 +25,9 @@ public class KafkaQuickStartConsumer extends ShutdownableThread {
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, KafkaConfiguration.KEY_DESERIALIZER_CLASS_CONFIG);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, KafkaConfiguration.VALUE_DESERIALIZER_CLASS_CONFIG);
 
+        //消息拦截器
+        props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG,"com.lovecws.mumu.kafka.interceptor.KafkaInterceptor");
+
         consumer = new KafkaConsumer<Integer,String>(props);
     }
 
@@ -36,7 +36,7 @@ public class KafkaQuickStartConsumer extends ShutdownableThread {
         consumer.subscribe(Collections.singleton(KafkaConfiguration.TOPIC));
         ConsumerRecords<Integer, String> records = consumer.poll(1000);
         for (ConsumerRecord<Integer, String> record : records) {
-            System.out.println("Received message: (" +record);
+            System.out.println("Received message: " +record);
         }
     }
 }

@@ -19,14 +19,14 @@ public class KafkaQuickStartProceducer {
     public void sendMessage(String message,int count) {
         Properties props = new Properties();
         props.put("bootstrap.servers", KafkaConfiguration.BOOTSTRAP_SERVERS_CONFIG);
-        props.put("client.id", "test-proceducer-group");
+        props.put("client.id", "KafkaQuickStartProceducer");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        KafkaProducer producer = new KafkaProducer<>(props);
+        KafkaProducer<Integer,System> producer = new KafkaProducer<Integer,System>(props);
 
         try {
             for (int i = 0; i < count; i++) {
-                Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, null, message)).get();
+                Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, 0,i, message)).get();
                 System.out.println("send message:" + o);
             }
         } catch (InterruptedException e) {
@@ -47,7 +47,7 @@ public class KafkaQuickStartProceducer {
         props.put("client.id", "test-proceducer-group");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        KafkaProducer producer = new KafkaProducer<>(props);
+        KafkaProducer<Integer,System> producer = new KafkaProducer<Integer,System>(props);
 
         try {
             for (int i = 0; i < count; i++) {

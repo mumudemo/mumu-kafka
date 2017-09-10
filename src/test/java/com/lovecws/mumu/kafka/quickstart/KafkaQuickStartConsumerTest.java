@@ -2,14 +2,16 @@ package com.lovecws.mumu.kafka.quickstart;
 
 import org.junit.Test;
 
-public class KafkaQuickStartConsumerDemo {
+import java.util.concurrent.TimeUnit;
+
+public class KafkaQuickStartConsumerTest {
 
     @Test
     public void receiveMessage(){
         KafkaQuickStartConsumer consumer=new KafkaQuickStartConsumer();
         consumer.start();
         try {
-            Thread.currentThread().join();
+            TimeUnit.SECONDS.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
