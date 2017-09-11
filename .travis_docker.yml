@@ -1,0 +1,23 @@
+language: java
+os: linux
+env:
+  global:
+    - KAFKASERVICES=localhost:9092
+sudo: required
+
+jdk:
+  - oraclejdk8
+
+services:
+  - docker
+
+before_install:
+    - docker pull babymumu/kafka
+    - docker run -d -p 127.0.0.1:9092:9092 babymumu/kafka /bin/sh -c "sh /root/bootstrap.sh"
+    - docker ps -a
+
+script: mvn clean install cobertura:cobertura
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  

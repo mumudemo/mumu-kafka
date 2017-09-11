@@ -1,9 +1,10 @@
 language: java
-
 os: linux
+env:
+  global:
+    - KAFKASERVICES=localhost:9092
 
 sudo: required
-
 jdk:
   - oraclejdk8
 

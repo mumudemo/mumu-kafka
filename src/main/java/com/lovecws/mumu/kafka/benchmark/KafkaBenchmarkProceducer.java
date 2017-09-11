@@ -22,7 +22,7 @@ public class KafkaBenchmarkProceducer {
     static {
         Properties props = new Properties();
         props.put("bootstrap.servers", KafkaConfiguration.BOOTSTRAP_SERVERS_CONFIG);
-        props.put("client.id", "KafkaQuickStartProceducer");
+        props.put("client.id", "KafkaBenchmarkProceducer");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         producer = new KafkaProducer<Integer,String>(props);

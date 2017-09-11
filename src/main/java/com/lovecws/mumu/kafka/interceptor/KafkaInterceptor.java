@@ -28,7 +28,7 @@ public class KafkaInterceptor implements ConsumerInterceptor {
             ConsumerRecord<Integer,String> consumerRecord = (ConsumerRecord<Integer, String>) iterator.next();
             Integer key = consumerRecord.key();
             //将key大于10的记录过滤掉
-            if(key>10){
+            if(key!=null&&key>10){
                 consumerRecordList.add(consumerRecord);
             }else{
                 //TODO 过滤掉的消息直接丢弃吗？

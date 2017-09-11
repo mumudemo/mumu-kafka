@@ -208,4 +208,33 @@
       </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <!-- travis ci集成的时候 使用该配置 -->
+    <profile>
+      <id>travis</id>
+      <properties>
+        <KAFKASERVICES>localhost:9092</KAFKASERVICES>
+      </properties>
+    </profile>
+
+    <!-- 公司环境的时候 使用该配置 -->
+    <profile>
+      <id>company</id>
+      <properties>
+        <KAFKASERVICES>192.168.11.25:9092</KAFKASERVICES>
+      </properties>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+
+    <!-- 家庭环境的时候 使用该配置 -->
+    <profile>
+      <id>home</id>
+      <properties>
+        <KAFKASERVICES>192.168.0.22:9092</KAFKASERVICES>
+      </properties>
+    </profile>
+  </profiles>
 </project>

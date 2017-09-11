@@ -22,6 +22,7 @@ public class KafkaQuickStartProceducer {
         props.put("client.id", "KafkaQuickStartProceducer");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        props.put("retries", 3);//重试次数
         KafkaProducer<Integer,String> producer = new KafkaProducer<Integer,String>(props);
 
         try {
@@ -47,11 +48,11 @@ public class KafkaQuickStartProceducer {
         props.put("client.id", "test-proceducer-group");
         props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        KafkaProducer<Integer,System> producer = new KafkaProducer<Integer,System>(props);
+        KafkaProducer<Integer,String> producer = new KafkaProducer<Integer,String>(props);
 
         try {
             for (int i = 0; i < count; i++) {
-                Object o = producer.send(new ProducerRecord(KafkaConfiguration.TOPIC, null, message), new Callback() {
+                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, null, message), new Callback() {
                     @Override
                     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                         System.out.println("message send end"+recordMetadata);
