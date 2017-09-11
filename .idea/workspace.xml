@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfbbcbe4-38c6-492f-b867-56d62993eb9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -445,7 +444,7 @@
       <workItem from="1504944837878" duration="15191000" />
       <workItem from="1505004082228" duration="13464000" />
       <workItem from="1505027563255" duration="18488000" />
-      <workItem from="1505091379832" duration="2247000" />
+      <workItem from="1505091379832" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="apache-kafka比阿尼额quichstart,测试消息的发送和消息的接受">
       <created>1504967214111</created>
@@ -468,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505093617798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="travis构建">
+      <created>1505093633981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505093633981</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -504,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49390000" />
+    <option name="totallyTimeSpent" value="49397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
