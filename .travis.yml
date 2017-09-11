@@ -1,8 +1,22 @@
 language: java
+
+os: linux
+
+sudo: required
+
 jdk:
   - oraclejdk8
 
-script: mvn clean install cobertura:cobertura
+##services:
+##  - rocketmq
+
+before_install:
+    - wget http://mirrors.hust.edu.cn/apache/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
+    - sudo tar -xzvf kafka_2.12-0.11.0.0.tgz
+    - sudo sh kafka_2.12-0.11.0.0/bin/zookeeper-server-start.sh kafka_2.12-0.11.0.0/config/zookeeper.properties &
+    - sudo sh kafka_2.12-0.11.0.0/bin/kafka-server-start.sh kafka_2.12-0.11.0.0/config/server.properties &
+
+script: mvn clean install cobertura:cobertura -DskipTests
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
