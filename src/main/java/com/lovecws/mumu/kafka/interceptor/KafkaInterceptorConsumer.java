@@ -12,10 +12,10 @@ import java.util.Properties;
 
 public class KafkaInterceptorConsumer extends ShutdownableThread {
 
-    private KafkaConsumer<Integer,String> consumer;
+    private KafkaConsumer<Integer, String> consumer;
 
-    public KafkaInterceptorConsumer(){
-        super("KafkaInterceptorConsumer",false);
+    public KafkaInterceptorConsumer() {
+        super("KafkaInterceptorConsumer", false);
         Properties props = new Properties();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, KafkaConfiguration.BOOTSTRAP_SERVERS_CONFIG);
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "KafkaInterceptorConsumer");
@@ -26,9 +26,9 @@ public class KafkaInterceptorConsumer extends ShutdownableThread {
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, KafkaConfiguration.VALUE_DESERIALIZER_CLASS_CONFIG);
 
         //消息拦截器
-        props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG,"com.lovecws.mumu.kafka.interceptor.KafkaInterceptor");
+        props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG, "com.lovecws.mumu.kafka.interceptor.KafkaInterceptor");
 
-        consumer = new KafkaConsumer<Integer,String>(props);
+        consumer = new KafkaConsumer<Integer, String>(props);
     }
 
     @Override
@@ -36,7 +36,7 @@ public class KafkaInterceptorConsumer extends ShutdownableThread {
         consumer.subscribe(Collections.singleton(KafkaConfiguration.TOPIC));
         ConsumerRecords<Integer, String> records = consumer.poll(1000);
         for (ConsumerRecord<Integer, String> record : records) {
-            System.out.println("Received message: " +record);
+            System.out.println("Received message: " + record);
         }
     }
 }

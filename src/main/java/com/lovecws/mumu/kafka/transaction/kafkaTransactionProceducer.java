@@ -2,6 +2,7 @@ package com.lovecws.mumu.kafka.transaction;
 
 import com.lovecws.mumu.kafka.KafkaConfiguration;
 import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
@@ -16,10 +17,11 @@ public class kafkaTransactionProceducer {
 
     /**
      * 发送事务消息
-     * @param message 消息
+     *
+     * @param message          消息
      * @param transactionCount 事务消息的数量
      */
-    public void sendTransactionMessage(String message,int transactionCount) {
+    public void sendTransactionMessage(String message, int transactionCount) {
         Properties props = new Properties();
         props.put("bootstrap.servers", KafkaConfiguration.BOOTSTRAP_SERVERS_CONFIG);
         props.put("client.id", "kafkaTransactionProceducer");
@@ -29,7 +31,10 @@ public class kafkaTransactionProceducer {
         props.put("transactional.id", "babymm123456");
         props.put("transaction.timeout.ms", 2000);
         props.put("retry.backoff.ms", 2000);
-        KafkaProducer<Integer,String> producer = new KafkaProducer<Integer,String>(props);
+        props.put(ProducerConfig.MAX_IN_FLIGHT_REQUESTS_PER_CONNECTION, 1);
+        props.put(ProducerConfig.RETRIES_CONFIG, 0);
+        props.put(ProducerConfig.ACKS_CONFIG, "all");
+        KafkaProducer<Integer, String> producer = new KafkaProducer<Integer, String>(props);
 
         //初始化事务
         producer.initTransactions();
@@ -39,10 +44,10 @@ public class kafkaTransactionProceducer {
         try {
             for (int i = 0; i < transactionCount; i++) {
                 //kafka保证相同的partition 和key
-                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, 0,123, message)).get();
+                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, 0, 123, message)).get();
                 System.out.println("send message:" + o);
             }
-        } catch (InterruptedException|ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
             //消息发送异常 终端事务
             producer.abortTransaction();

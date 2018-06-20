@@ -1,28 +1,14 @@
-package com.lovecws.mumu.kafka;
+package com.lovecws.mumu.kafka.partition;
 
+import com.lovecws.mumu.kafka.KafkaConfiguration;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
-public class KafkaConfiguration {
-
-    public static String BOOTSTRAP_SERVERS_CONFIG=null;
-
-    public static final String KEY_DESERIALIZER_CLASS_CONFIG="org.apache.kafka.common.serialization.IntegerDeserializer";
-    public static final String VALUE_DESERIALIZER_CLASS_CONFIG="org.apache.kafka.common.serialization.StringDeserializer";
-
-    public static final String TOPIC="babymm";
-
-    static {
-        //从环境变量中 获取
-        String KAFKASERVICES = System.getenv("KAFKASERVICES");
-        if(KAFKASERVICES!=null){
-            BOOTSTRAP_SERVERS_CONFIG=KAFKASERVICES;
-        }else{
-            BOOTSTRAP_SERVERS_CONFIG="192.168.11.25:9092";
-        }
-    }
+public class UFNProceducer {
 
     public static KafkaProducer kafkaProducer(String clientId) {
         Properties props = new Properties();
@@ -33,7 +19,28 @@ public class KafkaConfiguration {
         props.put(ProducerConfig.RETRIES_CONFIG, 3);//重试次数
         props.put(ProducerConfig.ACKS_CONFIG, "1");//ack数量 0：不需要确认，1：只需要主节点确认接受成功，2：all:主节点和副本都接受消息成功
         props.put(ProducerConfig.COMPRESSION_TYPE_CONFIG, "none");//默认不压缩
+        props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, "com.lovecws.mumu.kafka.partition.UFNPartition");//自定义分区器
         KafkaProducer<Integer, String> producer = new KafkaProducer<Integer, String>(props);
         return producer;
+    }
+
+    /**
+     * 发送同步消息
+     *
+     * @param message 消息
+     * @param count   数量
+     */
+    public void sendMessage(String message, int count) {
+        KafkaProducer<Integer, String> producer = UFNProceducer.kafkaProducer("UFNProceducer");
+        try {
+            for (int i = 0; i < count; i++) {
+                Object o = producer.send(new ProducerRecord<Integer, String>(KafkaConfiguration.TOPIC, i, message)).get();
+                System.out.println("send message:" + o);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
 }
